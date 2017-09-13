@@ -1,0 +1,23 @@
+h1 {
+  color: blue; }
+
+h2 {
+  color: blue; }
+
+section {
+  border-bottom: 1px solid #FFA800; }
+
+.shadowed, p, img {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+img {
+  display: inline-block;
+  border: 1px solid red; }
+
+section.first a {
+  text-decoration: none; }
+
+section.first p {
+  background-color: #e0e0e0; }
+  section.first p a {
+    color: #FFA800; }

@@ -1,0 +1,34 @@
+
+
+$main_color: blue; 
+$highlight_color: #FFA800;
+
+
+h1 {
+    color: $main_color;
+}
+
+h2 {color: $main_color;
+}
+
+section {border-bottom: 1px solid $highlight_color;
+}
+
+.shadowed {box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+p, img {@extend .shadowed;
+}
+
+img {display: inline-block;
+border: 1px solid red;}
+
+section.first {
+    a{ text-decoration: none;}
+    p{ 
+        background-color: #e0e0e0;
+        a{
+            color: $highlight_color;}
+    }
+}
